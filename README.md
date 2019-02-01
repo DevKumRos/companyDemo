@@ -19,6 +19,9 @@ password :
 npm install copyfiles -g
 # For Observables
 npm install --save rxjs-compat 
+# Install Bootstrap
+npm install bootstrap@3
+npm install jquery
 
 #Configure in package.json this this will copy file from dist folder to resources/ static
  "start": "ng serve --proxy-config proxy-conf.json",
